@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    cursor: pointer;
+    
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #292929;
+    color: #fff;
+    padding: 20px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+nav .left {
+    font-size: 24px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+
+section {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    background-color: #fff;
+    margin-bottom: 40px;
+}
+
+.firstsection{
+    text-decoration: solid;
+    text-shadow: #ccc;
+    text-wrap: nowrap;
+    font-size: 200%;
+   
+}
+
+.firstsection:hover{
+    animation-play-state: paused;
+}
+
+section h2 {
+    color: #292929;
+    margin-bottom: 20px;
+}
+
+
+.secondsection .card {
+    display: flex;
+    align-items: center;
+}
+
+.secondsection .photo {
+    width: 300px;
+    height: auto;
+    border-radius: 50%;
+    margin-right: 40px;
+}
+
+.secondsection .content {
+    flex: 1;
+}
+
+.secondsection .content h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.secondsection .content p {
+    margin-bottom: 20px;
+}
+
+
+
+
+
+.skill-box {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+
+.projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.project-card {
+    width: 48%;
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+
+.project-info h3 {
+    margin-bottom: 10px;
+}
+
+
+.education-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.education-entry {
+    width: 100%;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.vertical-line {
+    border-left: 2px solid #292929;
+    height: 100%;
+    margin-right: 20px;
+}
+
+.education-info h3 {
+    margin-bottom: 5px;
+}
+
+footer{
+    background-color: #292929;
+    height: 40px;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.social-icons a img{
+    height: 30px;
+    padding: 2px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    border-radius: 3px;
+
+}
+.social-icons a img:hover{
+    transform: scale(1.1);
+}
+
